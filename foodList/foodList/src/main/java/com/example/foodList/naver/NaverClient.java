@@ -19,8 +19,8 @@ import java.net.URI;
 @Component
 public class NaverClient {
 
-    private String naverClientId = "m7CKD0UfgfgNapOzssXk";
-    private String naverClientSecret = "Hpo5i1iL26";
+    private String naverClientId = "";
+    private String naverClientSecret = "";
     @Value("${naver.url.search.local}")
     private String naverLocalSearchUrl;
     @Value("${naver.url.search.image}")
